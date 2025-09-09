@@ -1,0 +1,36 @@
+# Django/Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+*.env
+*.sqlite3
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore migration cache but keep migration files
+**/migrations/__pycache__/
+
+# Ignore editor swap files
+*.swp
+*.swo
+
+# Ignore test output
+htmlcov/
+coverage.xml
+
+# Ignore local settings
+local_settings.py
+
+# Ignore static/media files (optional, uncomment if needed)
+# staticfiles/
+# media/
